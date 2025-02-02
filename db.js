@@ -1,12 +1,16 @@
 const { Pool } = require('pg');
 
+require('dotenv').config();
+
 const pool = new Pool({
-  user: 'postgres',
-  host: '127.0.0.1',
-  database: 'bleslink_db',
-  password: '    *',
-  port: 5433, // Default PostgreSQL port
+  user: process.env.DB_USER,
+  host: process.env.DB_HOST,
+  database: process.env.DB_NAME,
+  password: process.env.DB_PASS,
+  port: process.env.DB_PORT,
 });
+
+
 
 // Test the connection
 pool.connect((err, client, release) => {

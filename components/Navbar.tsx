@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    backgroundColor: '#007AFF',
+    backgroundColor: '#005BBB',
     padding: 15,
   },
   logo: {
@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
     borderRadius: 8,
   },
   loginButton: {
-    backgroundColor: '#005BB5',
+    backgroundColor: '#005BBB',
     padding: 10,
     borderRadius: 8,
     marginRight: 10,

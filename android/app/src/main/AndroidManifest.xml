@@ -26,6 +26,7 @@
         <category android:name="android.intent.category.BROWSABLE"/>
         <data android:scheme="myapp"/>
         <data android:scheme="com.anonymous.Bleslink"/>
+        <data android:scheme="exp+bleslink"/>
       </intent-filter>
     </activity>
   </application>
